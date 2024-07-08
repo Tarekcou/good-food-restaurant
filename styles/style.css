@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+      font-family: Work Sans;
+}
+body{
+}
+
+header{
+    background-image:
+        linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url("../assets/hero-bg.png");
+      /* width: 800px; */
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+.banner-content{
+  width: 720px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.banner-body{
+  color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-title{
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-btn{
+  border-radius: 8px;
+  margin: 32px 0px;
+    background: rgb(52, 122, 3);
+    /* Frame 6 */
+      position: static;
+      width: 200px;
+      height: 50px;
+      /* Auto layout */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 22px 12px 22px;
+      border: none;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 32px 0px;
+      cursor: pointer;
+      color: white;
+      
+}
+
+.banner-content-details{
+  position: static;
+    width: 640px;
+    height: 40px;
+    /* Auto layout */
+    margin: 14px auto;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+}
+
+
+/*card desgin */
+.card{
+width: 920px;
+height: 650px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+.card-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-1,
+.card-2,
+.card-3{
+  width: 100%;
+  height: 340px;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.off{
+  /* Up To 50% Off */
+    position: static;
+    width: 200px;
+    height: 30px;
+   
+    padding: 0px;
+  
+    font-weight: 600;
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+}
+.card-details{
+  
+  opacity: 0.7;
+  font-size: 14px;
+}
+.card .card-section .card-1 .img-1{
+  /* Rectangle 1 */
+    width: 280px;
+    height: 200px;
+    
+    margin: 10px 0px;
+    border-radius: 16px;
+}
+.card .card-section .card-2 .img-2 {
+  /* Rectangle 1 */
+  width: 280px;
+  height: 200px;
+  /* Inside Auto Layout */
+  
+  margin: 10px 0px;
+  border-radius: 16px;
+}
+.card .card-section .card-3 .img-3 {
+  /* Rectangle 1 */
+  position: static;
+  width: 280px;
+  height: 200px;
+  /* Inside Auto Layout */
+  
+  margin: 10px 0px;
+  border-radius: 16px;
+}
+.card-name{
+  /* Frame 9 */
+    position: static;
+    width: 140px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px 8px 15px;
+  color: black;
+  font-weight: 400;
+  opacity: 15;
+  font-size: 20px;
+  
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px auto;
+    border-radius: 8px;
+    
+      background: rgba(82, 195, 3, 0.15);
+
+}
